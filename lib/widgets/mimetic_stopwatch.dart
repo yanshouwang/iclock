@@ -3,14 +3,14 @@ import 'dart:math' as math;
 import 'package:flutter/widgets.dart';
 import 'package:iclock/utilities.dart';
 
-class Stopwatch extends StatelessWidget {
+class MimeticStopwatch extends StatelessWidget {
   final Duration elapsed;
   final Duration duration;
   final Color primaryColor;
   final Color secondaryColor;
   final Color foregroundColor;
 
-  const Stopwatch({
+  const MimeticStopwatch({
     super.key,
     required this.elapsed,
     required this.duration,

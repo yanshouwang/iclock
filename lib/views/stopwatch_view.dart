@@ -57,7 +57,7 @@ class _StopwatchViewState extends State<StopwatchView> {
           final counters = viewModel.counters.value;
           final counter = counters.isEmpty ? Duration.zero : counters.last;
           final duration = elapsed - counter;
-          return Stopwatch(
+          return MimeticStopwatch(
             elapsed: elapsed,
             duration: duration,
             primaryColor: Theme.of(context).colorScheme.primary,
