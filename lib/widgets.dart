@@ -1,3 +1,3 @@
 library widgets;
 
-export 'widgets/stopwatch.dart';
+export 'widgets/mimetic_stopwatch.dart';
